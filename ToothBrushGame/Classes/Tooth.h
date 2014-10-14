@@ -43,7 +43,7 @@ public:
     void addPos(float x,float y){m_pos.x += x;m_pos.y += y;}
     Vec2 getPos(void){return m_pos;}
     
-    void RefreshToothSpritePos(void){m_pToothSprite->setPosition(m_pos);}
+    void RefreshSpritePos(void){m_pToothSprite->setPosition(m_pos);}
     
 private:
     Sprite* m_pToothSprite;
