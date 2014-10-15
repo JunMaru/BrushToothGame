@@ -69,21 +69,23 @@
 		6138F67419EBCEA8006FAF8A /* Plaque.png in Resources */ = {isa = PBXBuildFile; fileRef = 6138F66919EBCEA8006FAF8A /* Plaque.png */; };
 		6138F67519EBCEA8006FAF8A /* tooth_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 6138F66A19EBCEA8006FAF8A /* tooth_01.png */; };
 		6138F67619EBCEA8006FAF8A /* Tooth.png in Resources */ = {isa = PBXBuildFile; fileRef = 6138F66B19EBCEA8006FAF8A /* Tooth.png */; };
+		6F28065F19EE48B700DF61EC /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F28064219EE48B700DF61EC /* AppDelegate.cpp */; };
+		6F28066019EE48B700DF61EC /* Boss.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F28064419EE48B700DF61EC /* Boss.cpp */; };
+		6F28066119EE48B700DF61EC /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F28064619EE48B700DF61EC /* Enemy.cpp */; };
+		6F28066219EE48B700DF61EC /* EnemyManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F28064819EE48B700DF61EC /* EnemyManager.cpp */; };
+		6F28066319EE48B700DF61EC /* Gum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F28064A19EE48B700DF61EC /* Gum.cpp */; };
+		6F28066419EE48B700DF61EC /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F28064C19EE48B700DF61EC /* HelloWorldScene.cpp */; };
+		6F28066519EE48B700DF61EC /* HitCheck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F28064E19EE48B700DF61EC /* HitCheck.cpp */; };
+		6F28066619EE48B700DF61EC /* LifeBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F28065019EE48B700DF61EC /* LifeBar.cpp */; };
+		6F28066719EE48B700DF61EC /* Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F28065219EE48B700DF61EC /* Number.cpp */; };
+		6F28066819EE48B700DF61EC /* Plaque.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F28065419EE48B700DF61EC /* Plaque.cpp */; };
+		6F28066919EE48B700DF61EC /* PlaqueManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F28065619EE48B700DF61EC /* PlaqueManager.cpp */; };
+		6F28066A19EE48B700DF61EC /* Score.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F28065819EE48B700DF61EC /* Score.cpp */; };
+		6F28066B19EE48B700DF61EC /* Tooth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F28065A19EE48B700DF61EC /* Tooth.cpp */; };
+		6F28066C19EE48B700DF61EC /* ToothManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F28065C19EE48B700DF61EC /* ToothManager.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
-		C382A01319EE264D0032C3FA /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3829FFB19EE264D0032C3FA /* AppDelegate.cpp */; };
-		C382A01419EE264D0032C3FA /* Boss.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3829FFD19EE264D0032C3FA /* Boss.cpp */; };
-		C382A01519EE264D0032C3FA /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3829FFF19EE264D0032C3FA /* Enemy.cpp */; };
-		C382A01619EE264D0032C3FA /* Gum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C382A00119EE264D0032C3FA /* Gum.cpp */; };
-		C382A01719EE264D0032C3FA /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C382A00319EE264D0032C3FA /* HelloWorldScene.cpp */; };
-		C382A01819EE264D0032C3FA /* HitCheck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C382A00519EE264D0032C3FA /* HitCheck.cpp */; };
-		C382A01919EE264D0032C3FA /* LifeBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C382A00719EE264D0032C3FA /* LifeBar.cpp */; };
-		C382A01A19EE264D0032C3FA /* Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C382A00919EE264D0032C3FA /* Number.cpp */; };
-		C382A01B19EE264D0032C3FA /* Plaque.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C382A00B19EE264D0032C3FA /* Plaque.cpp */; };
-		C382A01C19EE264D0032C3FA /* Score.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C382A00D19EE264D0032C3FA /* Score.cpp */; };
-		C382A01D19EE264D0032C3FA /* Tooth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C382A00F19EE264D0032C3FA /* Tooth.cpp */; };
-		C382A01E19EE264D0032C3FA /* ToothManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C382A01119EE264D0032C3FA /* ToothManager.cpp */; };
 		D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620B132DFF330009C878 /* OpenAL.framework */; };
 		D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620D132DFF430009C878 /* AVFoundation.framework */; };
 		D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620F132DFF4E0009C878 /* AudioToolbox.framework */; };
@@ -286,33 +288,37 @@
 		6138F66919EBCEA8006FAF8A /* Plaque.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Plaque.png; sourceTree = "<group>"; };
 		6138F66A19EBCEA8006FAF8A /* tooth_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tooth_01.png; sourceTree = "<group>"; };
 		6138F66B19EBCEA8006FAF8A /* Tooth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tooth.png; sourceTree = "<group>"; };
+		6F28064219EE48B700DF61EC /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = ../Classes/AppDelegate.cpp; sourceTree = "<group>"; };
+		6F28064319EE48B700DF61EC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../Classes/AppDelegate.h; sourceTree = "<group>"; };
+		6F28064419EE48B700DF61EC /* Boss.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Boss.cpp; path = ../Classes/Boss.cpp; sourceTree = "<group>"; };
+		6F28064519EE48B700DF61EC /* Boss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Boss.h; path = ../Classes/Boss.h; sourceTree = "<group>"; };
+		6F28064619EE48B700DF61EC /* Enemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Enemy.cpp; path = ../Classes/Enemy.cpp; sourceTree = "<group>"; };
+		6F28064719EE48B700DF61EC /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Enemy.h; path = ../Classes/Enemy.h; sourceTree = "<group>"; };
+		6F28064819EE48B700DF61EC /* EnemyManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EnemyManager.cpp; path = ../Classes/EnemyManager.cpp; sourceTree = "<group>"; };
+		6F28064919EE48B700DF61EC /* EnemyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EnemyManager.h; path = ../Classes/EnemyManager.h; sourceTree = "<group>"; };
+		6F28064A19EE48B700DF61EC /* Gum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Gum.cpp; path = ../Classes/Gum.cpp; sourceTree = "<group>"; };
+		6F28064B19EE48B700DF61EC /* Gum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gum.h; path = ../Classes/Gum.h; sourceTree = "<group>"; };
+		6F28064C19EE48B700DF61EC /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = ../Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		6F28064D19EE48B700DF61EC /* HelloWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = ../Classes/HelloWorldScene.h; sourceTree = "<group>"; };
+		6F28064E19EE48B700DF61EC /* HitCheck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HitCheck.cpp; path = ../Classes/HitCheck.cpp; sourceTree = "<group>"; };
+		6F28064F19EE48B700DF61EC /* HitCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HitCheck.h; path = ../Classes/HitCheck.h; sourceTree = "<group>"; };
+		6F28065019EE48B700DF61EC /* LifeBar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LifeBar.cpp; path = ../Classes/LifeBar.cpp; sourceTree = "<group>"; };
+		6F28065119EE48B700DF61EC /* LifeBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LifeBar.h; path = ../Classes/LifeBar.h; sourceTree = "<group>"; };
+		6F28065219EE48B700DF61EC /* Number.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Number.cpp; path = ../Classes/Number.cpp; sourceTree = "<group>"; };
+		6F28065319EE48B700DF61EC /* Number.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Number.h; path = ../Classes/Number.h; sourceTree = "<group>"; };
+		6F28065419EE48B700DF61EC /* Plaque.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Plaque.cpp; path = ../Classes/Plaque.cpp; sourceTree = "<group>"; };
+		6F28065519EE48B700DF61EC /* Plaque.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Plaque.h; path = ../Classes/Plaque.h; sourceTree = "<group>"; };
+		6F28065619EE48B700DF61EC /* PlaqueManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PlaqueManager.cpp; path = ../Classes/PlaqueManager.cpp; sourceTree = "<group>"; };
+		6F28065719EE48B700DF61EC /* PlaqueManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaqueManager.h; path = ../Classes/PlaqueManager.h; sourceTree = "<group>"; };
+		6F28065819EE48B700DF61EC /* Score.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Score.cpp; path = ../Classes/Score.cpp; sourceTree = "<group>"; };
+		6F28065919EE48B700DF61EC /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Score.h; path = ../Classes/Score.h; sourceTree = "<group>"; };
+		6F28065A19EE48B700DF61EC /* Tooth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Tooth.cpp; path = ../Classes/Tooth.cpp; sourceTree = "<group>"; };
+		6F28065B19EE48B700DF61EC /* Tooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tooth.h; path = ../Classes/Tooth.h; sourceTree = "<group>"; };
+		6F28065C19EE48B700DF61EC /* ToothManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ToothManager.cpp; path = ../Classes/ToothManager.cpp; sourceTree = "<group>"; };
+		6F28065D19EE48B700DF61EC /* ToothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToothManager.h; path = ../Classes/ToothManager.h; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		C3829FFB19EE264D0032C3FA /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = ../../../../.ssh/sandbox/Classes/AppDelegate.cpp; sourceTree = "<group>"; };
-		C3829FFC19EE264D0032C3FA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../../../.ssh/sandbox/Classes/AppDelegate.h; sourceTree = "<group>"; };
-		C3829FFD19EE264D0032C3FA /* Boss.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Boss.cpp; path = ../../../../.ssh/sandbox/Classes/Boss.cpp; sourceTree = "<group>"; };
-		C3829FFE19EE264D0032C3FA /* Boss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Boss.h; path = ../../../../.ssh/sandbox/Classes/Boss.h; sourceTree = "<group>"; };
-		C3829FFF19EE264D0032C3FA /* Enemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Enemy.cpp; path = ../../../../.ssh/sandbox/Classes/Enemy.cpp; sourceTree = "<group>"; };
-		C382A00019EE264D0032C3FA /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Enemy.h; path = ../../../../.ssh/sandbox/Classes/Enemy.h; sourceTree = "<group>"; };
-		C382A00119EE264D0032C3FA /* Gum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Gum.cpp; path = ../../../../.ssh/sandbox/Classes/Gum.cpp; sourceTree = "<group>"; };
-		C382A00219EE264D0032C3FA /* Gum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gum.h; path = ../../../../.ssh/sandbox/Classes/Gum.h; sourceTree = "<group>"; };
-		C382A00319EE264D0032C3FA /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = ../../../../.ssh/sandbox/Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
-		C382A00419EE264D0032C3FA /* HelloWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = ../../../../.ssh/sandbox/Classes/HelloWorldScene.h; sourceTree = "<group>"; };
-		C382A00519EE264D0032C3FA /* HitCheck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HitCheck.cpp; path = ../../../../.ssh/sandbox/Classes/HitCheck.cpp; sourceTree = "<group>"; };
-		C382A00619EE264D0032C3FA /* HitCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HitCheck.h; path = ../../../../.ssh/sandbox/Classes/HitCheck.h; sourceTree = "<group>"; };
-		C382A00719EE264D0032C3FA /* LifeBar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LifeBar.cpp; path = ../../../../.ssh/sandbox/Classes/LifeBar.cpp; sourceTree = "<group>"; };
-		C382A00819EE264D0032C3FA /* LifeBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LifeBar.h; path = ../../../../.ssh/sandbox/Classes/LifeBar.h; sourceTree = "<group>"; };
-		C382A00919EE264D0032C3FA /* Number.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Number.cpp; path = ../../../../.ssh/sandbox/Classes/Number.cpp; sourceTree = "<group>"; };
-		C382A00A19EE264D0032C3FA /* Number.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Number.h; path = ../../../../.ssh/sandbox/Classes/Number.h; sourceTree = "<group>"; };
-		C382A00B19EE264D0032C3FA /* Plaque.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Plaque.cpp; path = ../../../../.ssh/sandbox/Classes/Plaque.cpp; sourceTree = "<group>"; };
-		C382A00C19EE264D0032C3FA /* Plaque.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Plaque.h; path = ../../../../.ssh/sandbox/Classes/Plaque.h; sourceTree = "<group>"; };
-		C382A00D19EE264D0032C3FA /* Score.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Score.cpp; path = ../../../../.ssh/sandbox/Classes/Score.cpp; sourceTree = "<group>"; };
-		C382A00E19EE264D0032C3FA /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Score.h; path = ../../../../.ssh/sandbox/Classes/Score.h; sourceTree = "<group>"; };
-		C382A00F19EE264D0032C3FA /* Tooth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Tooth.cpp; path = ../../../../.ssh/sandbox/Classes/Tooth.cpp; sourceTree = "<group>"; };
-		C382A01019EE264D0032C3FA /* Tooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tooth.h; path = ../../../../.ssh/sandbox/Classes/Tooth.h; sourceTree = "<group>"; };
-		C382A01119EE264D0032C3FA /* ToothManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ToothManager.cpp; path = ../../../../.ssh/sandbox/Classes/ToothManager.cpp; sourceTree = "<group>"; };
-		C382A01219EE264D0032C3FA /* ToothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToothManager.h; path = ../../../../.ssh/sandbox/Classes/ToothManager.h; sourceTree = "<group>"; };
 		D44C620B132DFF330009C878 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		D44C620D132DFF430009C878 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D44C620F132DFF4E0009C878 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -386,30 +392,34 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C3829FFB19EE264D0032C3FA /* AppDelegate.cpp */,
-				C3829FFC19EE264D0032C3FA /* AppDelegate.h */,
-				C3829FFD19EE264D0032C3FA /* Boss.cpp */,
-				C3829FFE19EE264D0032C3FA /* Boss.h */,
-				C3829FFF19EE264D0032C3FA /* Enemy.cpp */,
-				C382A00019EE264D0032C3FA /* Enemy.h */,
-				C382A00119EE264D0032C3FA /* Gum.cpp */,
-				C382A00219EE264D0032C3FA /* Gum.h */,
-				C382A00319EE264D0032C3FA /* HelloWorldScene.cpp */,
-				C382A00419EE264D0032C3FA /* HelloWorldScene.h */,
-				C382A00519EE264D0032C3FA /* HitCheck.cpp */,
-				C382A00619EE264D0032C3FA /* HitCheck.h */,
-				C382A00719EE264D0032C3FA /* LifeBar.cpp */,
-				C382A00819EE264D0032C3FA /* LifeBar.h */,
-				C382A00919EE264D0032C3FA /* Number.cpp */,
-				C382A00A19EE264D0032C3FA /* Number.h */,
-				C382A00B19EE264D0032C3FA /* Plaque.cpp */,
-				C382A00C19EE264D0032C3FA /* Plaque.h */,
-				C382A00D19EE264D0032C3FA /* Score.cpp */,
-				C382A00E19EE264D0032C3FA /* Score.h */,
-				C382A00F19EE264D0032C3FA /* Tooth.cpp */,
-				C382A01019EE264D0032C3FA /* Tooth.h */,
-				C382A01119EE264D0032C3FA /* ToothManager.cpp */,
-				C382A01219EE264D0032C3FA /* ToothManager.h */,
+				6F28064219EE48B700DF61EC /* AppDelegate.cpp */,
+				6F28064319EE48B700DF61EC /* AppDelegate.h */,
+				6F28064419EE48B700DF61EC /* Boss.cpp */,
+				6F28064519EE48B700DF61EC /* Boss.h */,
+				6F28064619EE48B700DF61EC /* Enemy.cpp */,
+				6F28064719EE48B700DF61EC /* Enemy.h */,
+				6F28064819EE48B700DF61EC /* EnemyManager.cpp */,
+				6F28064919EE48B700DF61EC /* EnemyManager.h */,
+				6F28064A19EE48B700DF61EC /* Gum.cpp */,
+				6F28064B19EE48B700DF61EC /* Gum.h */,
+				6F28064C19EE48B700DF61EC /* HelloWorldScene.cpp */,
+				6F28064D19EE48B700DF61EC /* HelloWorldScene.h */,
+				6F28064E19EE48B700DF61EC /* HitCheck.cpp */,
+				6F28064F19EE48B700DF61EC /* HitCheck.h */,
+				6F28065019EE48B700DF61EC /* LifeBar.cpp */,
+				6F28065119EE48B700DF61EC /* LifeBar.h */,
+				6F28065219EE48B700DF61EC /* Number.cpp */,
+				6F28065319EE48B700DF61EC /* Number.h */,
+				6F28065419EE48B700DF61EC /* Plaque.cpp */,
+				6F28065519EE48B700DF61EC /* Plaque.h */,
+				6F28065619EE48B700DF61EC /* PlaqueManager.cpp */,
+				6F28065719EE48B700DF61EC /* PlaqueManager.h */,
+				6F28065819EE48B700DF61EC /* Score.cpp */,
+				6F28065919EE48B700DF61EC /* Score.h */,
+				6F28065A19EE48B700DF61EC /* Tooth.cpp */,
+				6F28065B19EE48B700DF61EC /* Tooth.h */,
+				6F28065C19EE48B700DF61EC /* ToothManager.cpp */,
+				6F28065D19EE48B700DF61EC /* ToothManager.h */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -767,21 +777,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C382A01D19EE264D0032C3FA /* Tooth.cpp in Sources */,
-				C382A01519EE264D0032C3FA /* Enemy.cpp in Sources */,
-				C382A01C19EE264D0032C3FA /* Score.cpp in Sources */,
-				C382A01A19EE264D0032C3FA /* Number.cpp in Sources */,
-				C382A01919EE264D0032C3FA /* LifeBar.cpp in Sources */,
-				C382A01E19EE264D0032C3FA /* ToothManager.cpp in Sources */,
-				C382A01319EE264D0032C3FA /* AppDelegate.cpp in Sources */,
-				C382A01619EE264D0032C3FA /* Gum.cpp in Sources */,
+				6F28066719EE48B700DF61EC /* Number.cpp in Sources */,
+				6F28066119EE48B700DF61EC /* Enemy.cpp in Sources */,
+				6F28066319EE48B700DF61EC /* Gum.cpp in Sources */,
+				6F28066A19EE48B700DF61EC /* Score.cpp in Sources */,
+				6F28066419EE48B700DF61EC /* HelloWorldScene.cpp in Sources */,
+				6F28066819EE48B700DF61EC /* Plaque.cpp in Sources */,
+				6F28065F19EE48B700DF61EC /* AppDelegate.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
+				6F28066B19EE48B700DF61EC /* Tooth.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
-				C382A01B19EE264D0032C3FA /* Plaque.cpp in Sources */,
-				C382A01819EE264D0032C3FA /* HitCheck.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
-				C382A01719EE264D0032C3FA /* HelloWorldScene.cpp in Sources */,
-				C382A01419EE264D0032C3FA /* Boss.cpp in Sources */,
+				6F28066C19EE48B700DF61EC /* ToothManager.cpp in Sources */,
+				6F28066019EE48B700DF61EC /* Boss.cpp in Sources */,
+				6F28066519EE48B700DF61EC /* HitCheck.cpp in Sources */,
+				6F28066919EE48B700DF61EC /* PlaqueManager.cpp in Sources */,
+				6F28066219EE48B700DF61EC /* EnemyManager.cpp in Sources */,
+				6F28066619EE48B700DF61EC /* LifeBar.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
