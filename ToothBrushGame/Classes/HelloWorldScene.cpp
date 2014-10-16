@@ -4,6 +4,7 @@
 #include "ToothManager.h"
 #include "Plaque.h"
 #include "PlaqueManager.h"
+#include "HitChecker.h"
 
 USING_NS_CC;
 
@@ -94,6 +95,7 @@ bool HelloWorld::init()
     m_pEnemySprite = Sprite::create("Enemy.png");
     m_pEnemySprite->setPosition(400, 600);
     this->addChild(m_pEnemySprite);
+    Rect hoge = m_pEnemySprite->getBoundingBox();
     
     m_pPlaqueSprite = Sprite::create("Plaque.png");
     m_pPlaqueSprite->setPosition(410, 800);
@@ -110,7 +112,10 @@ bool HelloWorld::init()
 
     this->addChild(Plaque::create(Vec2(64, 64))->getSprite());
 
-     m_pPlaqueManager = PlaqueManager::create(100, this);
+    m_pPlaqueManager = PlaqueManager::create(100, this);
+
+    m_pHitChecker = HitChecker::create(nullptr, m_pToothManager, m_pPlaqueManager);
+
     
     return true;
 }
@@ -238,8 +243,11 @@ void HelloWorld::onTouchMoved(Touch* pTouch,Event* pEvent)
         return;
     }
 
+    Rect bubbleRect = m_pBubbleSprite->getBoundingBox();
+
     Rect swipeRect;
-    swipeRect.setRect(m_touchPos.x - swipVec.x / 2 ,m_touchPos.y - swipVec.y / 2,swipVec.x , swipVec.y);
+   swipeRect.setRect(m_touchPos.x - swipVec.x - bubbleRect.size.width / 2 ,m_touchPos.y - swipVec.y  - bubbleRect.size.height / 2,
+                      swipVec.x + bubbleRect.size.width, swipVec.y + bubbleRect.size.height);
 
     // 歯垢スプライトのサイズ取得
     Rect plaqueRect = m_pPlaqueSprite->getBoundingBox();
@@ -251,6 +259,8 @@ void HelloWorld::onTouchMoved(Touch* pTouch,Event* pEvent)
         m_pPlaqueSprite->setOpacity(0);
         m_bPlaqueDie = true;
     }
+
+    m_pHitChecker->hitCheckSwipe(swipeRect, m_swipeDirection);
 }
 
 void HelloWorld::onTouchEnded(Touch* pTouch, Event* pEvent)

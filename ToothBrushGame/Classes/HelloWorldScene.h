@@ -7,6 +7,7 @@ using namespace cocos2d;
 
 class ToothManager;
 class PlaqueManager;
+class HitChecker;
 
 class HelloWorld : public cocos2d::Layer
 {
@@ -48,6 +49,7 @@ private:
     
     ToothManager* m_pToothManager;
     PlaqueManager* m_pPlaqueManager;
+    HitChecker* m_pHitChecker;
     
     Sprite* m_pBubbleSprite;
     Vec2 m_bubblePos;

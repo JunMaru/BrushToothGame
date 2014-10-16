@@ -41,9 +41,13 @@ public:
 
     static PlaqueManager* create(int nPlaqueMaxNum,Layer* pLayer);
 
-
     Plaque** getPlaqueTop(void){return &m_ppPlaque[0];}
+
     int getPlaqueNum(void){return m_nPlaqueNum;}
+    void setPlaqueNum(int nNum){m_nPlaqueNum = nNum;}
+    void addPlaqueNum(int nNum){m_nPlaqueNum += nNum;}
+
+    int getPlaqueMaxNum(void){return m_nPlaqueMaxNum;}
 
 private:
     Plaque** m_ppPlaque;
