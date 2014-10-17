@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		189D375D19F0B28200ADD955 /* MenuBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 189D375B19F0B28200ADD955 /* MenuBar.png */; };
+		189D375E19F0B28200ADD955 /* ScoreBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 189D375C19F0B28200ADD955 /* ScoreBar.png */; };
 		1AC6FB1F180E996B004C840B /* libbox2d Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FAFF180E9839004C840B /* libbox2d Mac.a */; };
 		1AC6FB20180E996B004C840B /* libchipmunk Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FAFD180E9839004C840B /* libchipmunk Mac.a */; };
 		1AC6FB21180E996B004C840B /* libcocos2dx Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FAF9180E9839004C840B /* libcocos2dx Mac.a */; };
@@ -57,6 +59,7 @@
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
+		C36E0A7F19F0AEA800E5040C /* GameMainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C36E0A7D19F0AEA800E5040C /* GameMainScene.cpp */; };
 		C3AFC7C319EFBFC00017FB78 /* Boss.png in Resources */ = {isa = PBXBuildFile; fileRef = C3AFC7B419EFBFC00017FB78 /* Boss.png */; };
 		C3AFC7C419EFBFC00017FB78 /* bubble_01.png in Resources */ = {isa = PBXBuildFile; fileRef = C3AFC7B519EFBFC00017FB78 /* bubble_01.png */; };
 		C3AFC7C519EFBFC00017FB78 /* CloseNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = C3AFC7B619EFBFC00017FB78 /* CloseNormal.png */; };
@@ -240,6 +243,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		189D375B19F0B28200ADD955 /* MenuBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuBar.png; sourceTree = "<group>"; };
+		189D375C19F0B28200ADD955 /* ScoreBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScoreBar.png; sourceTree = "<group>"; };
 		1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = ../cocos2d/build/cocos2d_libs.xcodeproj; sourceTree = "<group>"; };
 		1ACB3243164770DE00914215 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = ../../cocos2dx/platform/third_party/ios/libraries/libcurl.a; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -285,6 +290,8 @@
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C36E0A7D19F0AEA800E5040C /* GameMainScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameMainScene.cpp; path = ../Classes/GameMainScene.cpp; sourceTree = "<group>"; };
+		C36E0A7E19F0AEA800E5040C /* GameMainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameMainScene.h; path = ../Classes/GameMainScene.h; sourceTree = "<group>"; };
 		C3AFC7B419EFBFC00017FB78 /* Boss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Boss.png; sourceTree = "<group>"; };
 		C3AFC7B519EFBFC00017FB78 /* bubble_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble_01.png; sourceTree = "<group>"; };
 		C3AFC7B619EFBFC00017FB78 /* CloseNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseNormal.png; sourceTree = "<group>"; };
@@ -424,8 +431,8 @@
 				C3AFC7DB19EFC0220017FB78 /* Gum.h */,
 				C3AFC7DC19EFC0220017FB78 /* HelloWorldScene.cpp */,
 				C3AFC7DD19EFC0220017FB78 /* HelloWorldScene.h */,
-				C3AFC7DE19EFC0220017FB78 /* HitCheck.cpp */,
 				C3AFC7DF19EFC0220017FB78 /* HitCheck.h */,
+				C3AFC7DE19EFC0220017FB78 /* HitCheck.cpp */,
 				C3AFC7E019EFC0220017FB78 /* HitChecker.cpp */,
 				C3AFC7E119EFC0220017FB78 /* HitChecker.h */,
 				C3AFC7E219EFC0220017FB78 /* Item.cpp */,
@@ -454,6 +461,8 @@
 				618F47D919F0189F007DBB5F /* Bubble.h */,
 				618F47DB19F018B0007DBB5F /* EffectManager.cpp */,
 				618F47DC19F018B0007DBB5F /* EffectManager.h */,
+				C36E0A7D19F0AEA800E5040C /* GameMainScene.cpp */,
+				C36E0A7E19F0AEA800E5040C /* GameMainScene.h */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -569,6 +578,8 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				189D375B19F0B28200ADD955 /* MenuBar.png */,
+				189D375C19F0B28200ADD955 /* ScoreBar.png */,
 				C3AFC7B419EFBFC00017FB78 /* Boss.png */,
 				C3AFC7B519EFBFC00017FB78 /* bubble_01.png */,
 				C3AFC7B619EFBFC00017FB78 /* CloseNormal.png */,
@@ -762,6 +773,7 @@
 			files = (
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
+				189D375D19F0B28200ADD955 /* MenuBar.png in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
 				C3AFC7C919EFBFC00017FB78 /* haguki.png in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
@@ -775,6 +787,7 @@
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
 				C3AFC7CB19EFBFC00017FB78 /* hpbar.png in Resources */,
 				C3AFC7C819EFBFC00017FB78 /* Marker Felt.ttf in Resources */,
+				189D375E19F0B28200ADD955 /* ScoreBar.png in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
 				C3AFC7CF19EFBFC00017FB78 /* UI_Item.png in Resources */,
@@ -828,6 +841,7 @@
 				C3AFC7FF19EFC0220017FB78 /* HitChecker.cpp in Sources */,
 				C3AFC7FE19EFC0220017FB78 /* HitCheck.cpp in Sources */,
 				C3AFC80319EFC0220017FB78 /* Number.cpp in Sources */,
+				C36E0A7F19F0AEA800E5040C /* GameMainScene.cpp in Sources */,
 				C3AFC80219EFC0220017FB78 /* MenuBar.cpp in Sources */,
 				C3AFC7FB19EFC0220017FB78 /* EnemyManager.cpp in Sources */,
 				C3AFC80919EFC0220017FB78 /* ToothManager.cpp in Sources */,
